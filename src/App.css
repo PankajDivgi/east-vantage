@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.card > div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 260px;
+}
+.card > div > p,
+.card > div > h1 {
+  margin-bottom: 0;
+}
+.card > div > button {
+  margin-top: 18px;
+  color: #09b43a;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #09b43a;
+  border-radius: 10px;
+  cursor: pointer;
+}
